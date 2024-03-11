@@ -1,0 +1,24 @@
+
+
+//Clear a HashMap
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class ClearHashMap {
+
+    public static void main(String[] args){
+
+
+        HashMap<String, Integer> clearHashmap = new HashMap<>();
+
+        clearHashmap.put("John", 24);
+        clearHashmap.put("Alex", 67);
+
+        clearHashmap.clear();
+
+        System.out.println("The hashmap is "+clearHashmap);
+
+
+    }
+}
